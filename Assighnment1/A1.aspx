@@ -10,7 +10,7 @@
         <div>
             <h2>Enter Your Name:</h2>
             <asp:TextBox ID="txtName" runat="server"></asp:TextBox><br /><br />
-            <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" /><br /><br />
+            <asp:Button ID="btnSubmit" runat="server" Text="submit" OnClick="btnSubmit_Click" /><br /><br />
             <asp:Label ID="lblMessage" runat="server"></asp:Label>
         </div>
     </form>
