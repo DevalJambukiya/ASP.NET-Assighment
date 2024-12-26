@@ -67,11 +67,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assighnment1\A3.aspx" />
     <Content Include="Assighnment1\A1.aspx" />
     <Content Include="Assighnment1\A2.aspx" />
+    <Content Include="Assighnment1\A4.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assighnment1\A3.aspx.cs">
+      <DependentUpon>A3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assighnment1\A3.aspx.designer.cs">
+      <DependentUpon>A3.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Assighnment1\A1.aspx.cs">
       <DependentUpon>A1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -85,6 +94,13 @@
     </Compile>
     <Compile Include="Assighnment1\A2.aspx.designer.cs">
       <DependentUpon>A2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assighnment1\A4.aspx.cs">
+      <DependentUpon>A4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assighnment1\A4.aspx.designer.cs">
+      <DependentUpon>A4.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
